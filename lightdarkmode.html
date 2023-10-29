@@ -1,0 +1,25 @@
+<html>
+    <head>
+       <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+        .dark {
+            background-color: black;
+            color: white;
+        }
+        </style>
+        <script>
+           const changemode = () => {
+            let mybody = document.body;
+            mybody.classList.toggle('dark')
+           }
+        </script>
+    </head>
+    <body>
+        <h1>LIGHT DARK MODE</h1>
+        <P>Dark mode has gained a lot of traction recently. Like Apple, for instance, has added dark mode to its iOS and MacOS operating systems. Windows and Google have done the same. </P>
+        <button onclick="changemode()">changemode</button>
+    </body>
+</html>
